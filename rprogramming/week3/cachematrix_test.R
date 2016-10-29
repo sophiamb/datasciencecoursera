@@ -1,0 +1,5 @@
+foo<-matrix(c(1,1,2,1),2,2)
+solve(foo)
+my_matrix <- makeCacheMatrix(foo)
+cacheSolve(my_matrix)
+cacheSolve(my_matrix)
